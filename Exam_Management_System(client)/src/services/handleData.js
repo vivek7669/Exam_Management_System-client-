@@ -1,7 +1,7 @@
 import axios from "axios";
 
 let api = new axios.create({
-    baseURL : "http://localhost:8090/"
+    baseURL : "https://exammanagementsystem-production.up.railway.app/"
 })
 
 export default api;
